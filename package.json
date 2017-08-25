@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "description": "This app demonstrates the concept of an Higher Order Component.",
   "scripts": {
-    "start": "webpack-dev-server --progress",
-    "build": "rimraf dist && webpack --progress"
+    "client": "webpack-dev-server --progress",
+    "buildui": "cross-env NODE_ENV=production webpack",
+    "heroku-postbuild": "npm run buildui"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cross-env": "^5.0.5",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
