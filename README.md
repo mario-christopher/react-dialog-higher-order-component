@@ -1,9 +1,6 @@
 # react-dialog-higher-order-component !
 This app demonstrates the concept of an Higher Order Component. It is developed used React and Redux.
 
-## Try it out:
-https://react-dialog.herokuapp.com/
-
 ---
 A higher-order component (HOC) is an advanced technique in React for reusing component logic. 
 Concretely, a higher-order component is a function that takes a component and returns a new component. If for e.g., our HOC function is called `asDialog()`, then:
