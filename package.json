@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "This app demonstrates the concept of an Higher Order Component.",
   "scripts": {
-    "client": "webpack-dev-server --progress",
-    "buildui": "cross-env NODE_ENV=production webpack",
-    "heroku-postbuild": "npm run buildui"
+    "start": "webpack-dev-server --progress",
+    "build": "webpack --progress"
   },
   "keywords": [],
   "author": "",
@@ -17,7 +16,9 @@
     "react-dom": "^15.6.1",
     "react-redux": "^5.0.6",
     "redux": "^3.7.2",
-    "redux-thunk": "^2.2.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-es2015": "^6.24.1",

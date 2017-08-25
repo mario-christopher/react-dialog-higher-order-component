@@ -11,7 +11,7 @@ Concretely, a higher-order component is a function that takes a component and re
 * `git https://github.com/mario-christopher/react-dialog-higher-order-component.git`
 * `cd react-dialog-higher-order-component`
 * `npm install`
-* `npm run client`
+* `npm run start`
 * Browse to http://localhost:8080 *( tested on Chrome and IE.11 ).*
 
 ## Usage
